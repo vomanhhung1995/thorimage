@@ -1,0 +1,36 @@
+{
+  "configVersion": 1,
+
+  "sync": {
+    "intervalMinutes": 15,
+    "deleteRemoteMissingFiles": false
+  },
+
+  "display": {
+    "slideDurationSeconds": 10,
+    "showClock": true,
+    "clockFormat": "HH:mm",
+    "clockPosition": "bottom_right"
+  },
+
+  "sources": [
+    {
+      "id": "source_01",
+      "name": "Nguon 1",
+      "enabled": true,
+      "googleDriveUrl": "https://drive.google.com/drive/folders/19h67YisH0SS2gqaoozNXFloDrBJTfZHD?usp=sharing"
+    },
+    {
+      "id": "source_02",
+      "name": "Nguon 2",
+      "enabled": true,
+      "googleDriveUrl": "https://drive.google.com/drive/folders/1UtlHhjifZOZAfCaxJ49Rou85pE0caIpS?usp=sharing"
+    },
+    {
+      "id": "source_03",
+      "name": "Nguon 3",
+      "enabled": true,
+      "googleDriveUrl": "https://drive.google.com/drive/folders/1I9mkoNkzEFTvVgRh2Nmik7aqNGc_o3pB?usp=sharing"
+    }
+  ]
+}
