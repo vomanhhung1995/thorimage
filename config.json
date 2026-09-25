@@ -7,7 +7,7 @@
   },
 
   "display": {
-    "slideDurationSeconds": 10,
+    "slideDurationSeconds": 300,
     "showClock": true,
     "clockFormat": "HH:mm",
     "clockPosition": "bottom_right"
